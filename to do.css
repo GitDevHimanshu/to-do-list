@@ -1,0 +1,60 @@
+#parent {
+    display: flex;
+    width: 100%; 
+    overflow: auto;
+}
+
+#parent > div{
+    width: 100%;
+    text-align: center;
+   
+}
+
+#task_ip{
+    border: 1px solid gray;
+    margin-left: 1px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    align-self:baseline;
+}
+
+#tasks{
+    overflow: auto;
+    max-height: 320px;
+    
+}
+
+#tasks h1{
+    display: block;
+}
+
+#entry{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 972px){
+    #parent {
+        display: block;
+        width: 100%; 
+        overflow: auto;
+    }
+
+    #task_ip{
+        border: 1px solid gray;
+        margin-left: 1px;
+        margin-top: 3px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: large;
+        align-self:baseline;
+        margin-top: 30px;
+        width: 90%;
+    }
+}
+
+
